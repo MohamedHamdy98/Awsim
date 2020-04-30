@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaboratoryActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_Medicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_laboratory_Name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_doctor"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/hamdyelatfy"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_laboratory_type1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_microscope"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/laboratory"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_laboratory_phone1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01111099035"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_laboratory_phone_number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lightorang"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

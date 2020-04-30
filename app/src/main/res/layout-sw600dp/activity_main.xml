@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_Medicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageMedicine"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="12dp"
+                            android:src="@drawable/med">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewMedicine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="16dp"
+                            android:fontFamily="@font/cairo_bold"
+                            android:gravity="center"
+                            android:text="@string/doctors"
+                            android:textColor="@color/blackfont"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonMedicine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_selector_style"
+                            android:drawableStart="@drawable/ic_mask"
+                            android:fontFamily="@font/cairo_bold"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="@string/view"
+                            android:textAllCaps="false"
+                            android:textColor="@color/lightorang"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_Food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageFood"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="12dp"
+                            android:src="@drawable/food">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewFood"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="16dp"
+                            android:fontFamily="@font/cairo_bold"
+                            android:gravity="center"
+                            android:text="@string/restaurant"
+                            android:textColor="@color/blackfont"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonFood"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_selector_style"
+                            android:drawableStart="@drawable/ic_chef"
+                            android:fontFamily="@font/cairo_bold"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="مشاهدة"
+                            android:textAllCaps="false"
+                            android:textColor="@color/lightorang"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrilActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gawhartelmadina"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01110761861"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/elhana"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01120172114"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/osamagril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01114220820"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/maka"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01120668446"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/omhashem"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01110368732"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gril_Name6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/elyamany"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_type6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_gril"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/gril"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_gril_phone6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01006361258"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_gril_phone_number6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

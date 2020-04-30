@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".KosharyActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_koshary_Name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/kosharyelamora"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_koshary_type1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_sauce"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/koshary"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_koshary_phone1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01144164440"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_koshary_phone_number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_koshary_Name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/kosharyelhag"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_koshary_type2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_sauce"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/koshary"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_koshary_phone2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01112317681"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_koshary_phone_number2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="#ffbd69"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

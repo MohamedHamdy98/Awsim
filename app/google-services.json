@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496080038217",
+    "firebase_url": "https://awsim-d1c9f.firebaseio.com",
+    "project_id": "awsim-d1c9f",
+    "storage_bucket": "awsim-d1c9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496080038217:android:0d64d0250bb11e3503d298",
+        "android_client_info": {
+          "package_name": "com.example.awsem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496080038217-abi78u5kd3cc8o64eivc7sgunqhitt87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.awsem",
+            "certificate_hash": "eb8b507f44bea88cae2e1dc402b19317619a28bf"
+          }
+        },
+        {
+          "client_id": "496080038217-uv7dt1nb2mkbvcl7givig96l81ugljb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-2tQrlEW_b1xpOBvC5YJLIM4TYoWXhtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496080038217-uv7dt1nb2mkbvcl7givig96l81ugljb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PizzaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_pizza_Name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/kamanana"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_type1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_pizza"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/pizza"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_phone1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01101404401"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_pizza_phone_number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lightorang"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_pizza_Name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/amyagamal"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_type2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_pizza"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/pizza"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_phone2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01008442425"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_pizza_phone_number2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lightorang"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_pizza_Name3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_chef_tow"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/pizzakaslan"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_type3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_pizza"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="@string/justpizza"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView_pizza_phone3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:fontFamily="@font/cairo_bold"
+                        android:gravity="center"
+                        android:text="01118151696"
+                        android:textColor="@color/blackfont"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button_pizza_phone_number3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector_style"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:text="@string/call"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lightorang"
+                        android:textSize="22sp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
